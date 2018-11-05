@@ -1244,7 +1244,7 @@ cite {
 /* Container */
 
 .container {
-  max-width: rem(1440);
+  /*max-width: rem(2940);*/
   margin: 0 auto;
 
   // make sure container never borders viewport
@@ -4875,6 +4875,20 @@ $grid-image-crop: stencilString('grid_image_crop');
     margin-left: 0;
     transform: translateY(rem(45));
   }
+}
+
+//Featured Categories
+.category-featured-item {
+    position: relative;
+    width: 15%;
+
+    @include breakpoint(s) {
+        &:first-of-type {
+            width: 100%;
+        }
+
+        width: 48%;
+    }
 }
 
 // Featured Products
