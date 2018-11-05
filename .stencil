@@ -1,0 +1,12 @@
+{
+  "normalStoreUrl": "https://www.muranoartcollection.com/",
+  "port": 3000,
+  "clientId": "r3rc5zs3d1c5ds8mndjpghgoxeqzvrk",
+  "accessToken": "l1spwgwj3g5i8d02slvjt45kqh55xub",
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {},
+    "product": {}
+  }
+}
