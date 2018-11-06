@@ -6864,14 +6864,17 @@ $local-toggle-color: #000;
   }
 }
 
-.quick-search .products-quick-search-item:not(.product-item-sold-out):hover .product-item-details {
-  @include breakpoint(ms) {
-    bottom: 0;
+.category-featured-grid {
+}
 
-    .button {
-      opacity: 0;
+.quick-search .products-quick-search-item:not(.product-item-sold-out):hover .product-item-details {
+    @include breakpoint(ms) {
+        bottom: 0;
+
+        .button {
+            opacity: 0;
+        }
     }
-  }
 }
 
 .quick-search-submit-container {
